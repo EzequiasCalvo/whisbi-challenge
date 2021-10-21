@@ -56,3 +56,13 @@ img {
   background-color: rgba(168, 216, 168, 1);
   transition: background-color 0.8s;
 }
+
+hr {
+  margin-top: 2rem;
+}
+
+.title {
+  padding: 5rem;
+  font-size: 3rem;
+  text-align: center;
+}
