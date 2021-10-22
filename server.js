@@ -8,11 +8,11 @@ http
   .createServer(function (request, response) {
     console.log("request starting...");
 
-    const filePath = "." + request.url;
+    let filePath = "." + request.url;
     if (filePath == "./") filePath = "./index.html";
 
-    const extname = path.extname(filePath);
-    const contentType = "text/html";
+    let extname = path.extname(filePath);
+    let contentType = "text/html";
     switch (extname) {
       case ".js":
         contentType = "text/javascript";

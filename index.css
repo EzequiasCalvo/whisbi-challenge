@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+.title {
+  padding: 5rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
 #slider-container {
   position: relative;
   overflow: hidden;
@@ -59,10 +65,4 @@ img {
 
 hr {
   margin-top: 2rem;
-}
-
-.title {
-  padding: 5rem;
-  font-size: 3rem;
-  text-align: center;
 }
